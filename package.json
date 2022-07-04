@@ -9,7 +9,7 @@
     "test": "node create-es4x.test.js"
   },
   "bin": {
-    "es4x": "./node_modules/.bin/es4x-cli.js",
+    "es4x": "./node_modules/.bin/es4x-cli.js"
   },
   "repository": {
     "type": "git",
