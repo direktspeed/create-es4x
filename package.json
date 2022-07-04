@@ -1,6 +1,36 @@
 {
   "name": "create-es4x",
   "type": "module",
-  "main": "create-es4x.js"
-  "bin": "create-es4x"
+  "main": "create-es4x.js",
+  "version": "0.0.0-pre3",
+  "description": "Scalefold a ES4X Project Node for GraalVM via vertx4",
+  "scripts": {
+    "test": "node create-es4x.test.js"
+  },
+  "bin": {
+    "es4x": "./node_modules/.bin/es4x-cli.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/direktspeed/create-es4x.git"
+  },
+  "keywords": [
+    "es4x",
+    "graalvm",
+    "graal",
+    "ecmascript",
+    "runtime",
+    "java",
+    "vertx",
+    "node",
+    "nodejs"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/direktspeed/create-es4x/issues"
+  },
+  "homepage": "https://github.com/direktspeed/create-es4x#readme",
+  "dependencies": {
+    "@es4x/create": "~0.18.0"
+  }
 }
