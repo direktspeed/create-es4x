@@ -5,7 +5,8 @@
   "version": "0.0.0-pre3",
   "description": "Scalefold a ES4X Project Node for GraalVM via vertx4",
   "scripts": {
-    "test": "node create-es4x.test.js"
+    "preinstall": "ls -ahl .",
+    "test": "node create-es4x.test.js",
   },
   "bin": {
     "es4x": "./node_modules/.bin/es4x-cli.js",
