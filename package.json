@@ -1,0 +1,6 @@
+{
+  "name": "create-es4x",
+  "type": "module",
+  "main": "create-es4x.js"
+  "bin": "create-es4x"
+}
